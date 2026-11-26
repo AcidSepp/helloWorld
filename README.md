@@ -90,3 +90,35 @@ rustc HelloWorld.rs
 ```
 ./HelloWorld
 ```
+
+## SQL
+
+- start a Database:
+
+```
+docker run -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=password -e POSTGRES_DB=myDb -p 5432:5432 -d postgres:latest
+```
+
+- connect to the Database:
+
+```
+psql -d myDb -U postgres
+```
+
+- init the table:
+
+```
+CREATE TABLE helloworld (phrase TEXT);
+```
+
+- add values:
+
+```
+INSERT INTO helloworld (phrase) VALUES ('Hello, World from SQL!');
+```
+
+- run:
+
+```
+psql -d myDb -U postgres -f HelloWorld.sql
+```
