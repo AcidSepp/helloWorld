@@ -74,3 +74,11 @@ rustc HelloWorld.rs
 ```
 ./HelloWorld
 ```
+
+## Go
+
+- run:
+
+```
+go run HelloWorld.go
+```
