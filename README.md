@@ -17,6 +17,22 @@ gcc HelloWorld.c -o HelloWorld
 ./HelloWorld
 ```
 
+## Go
+
+- run:
+
+```
+go run HelloWorld.go
+```
+
+## HTML
+
+- view:
+
+```
+firefox HelloWorld.html
+```
+
 ## Java
 
 - compile:
@@ -73,12 +89,4 @@ rustc HelloWorld.rs
 
 ```
 ./HelloWorld
-```
-
-## Go
-
-- run:
-
-```
-go run HelloWorld.go
 ```
