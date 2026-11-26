@@ -60,3 +60,17 @@ java HelloWorldKt
 ```
 python HelloWorld.py
 ```
+
+## Rust
+
+- compile:
+
+```
+rustc HelloWorld.rs
+```
+
+- run:
+
+```
+./HelloWorld
+```
